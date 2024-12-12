@@ -1,0 +1,44 @@
+.products{
+    margin-top: 20px;
+}
+
+.products .row{
+    width: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.products img {
+    width: 80px;
+    border-radius: 9px;
+    margin-right: 10px;
+}
+
+.products .btn{
+    margin-left: 0;
+    background: #ff5644;
+    width: 180px;
+    height: 40px;
+}
+.products .dlt{
+    width: 100px;
+    height: 30px;
+}
+.dlt-all {
+    margin-top: 10px;
+}
+
+@media (max-width: 650px){
+    .products img {
+        width: 60px;
+        margin-right: 5px;
+    }
+    .products .dlt{
+        width: 90px;
+        font-size: 0.9em;
+        height: 30px;
+    }
+
+}

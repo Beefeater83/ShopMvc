@@ -1,0 +1,40 @@
+
+@media (min-width: 600px) {
+    .form-control {
+        width: 500px;
+    }
+}
+@media (max-width: 599px) and (min-width: 300px) {
+    .form-control {
+        width: 90%;
+    }
+}
+
+.form-control input,
+.form-control textarea {
+    width: 100%;
+    background: #fcfcfc;
+    border: 1px solid silver;
+    border-radius: 5px;
+    padding: 15px 20px;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #333;
+}
+
+.form-control textarea {
+    height: 200px;
+    resize: none;
+}
+
+.form-control .btn {
+    margin-top: 15px;
+    margin-left: 0;
+    background: #ff5644;
+}
+
+.form-control .error {
+    color: #ff5644;
+    font-weight: 600;
+    margin-top: 10px;
+}
